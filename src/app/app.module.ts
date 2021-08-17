@@ -46,6 +46,7 @@ import { SetNameComponent } from './pages/set-name/set-name.component';
 import { StatsPageComponent } from './pages/stats-page/stats-page.component';
 import { MinutesPipe } from './pipes/minutes.pipe';
 import { SharedModule } from './shared.module';
+import { LuckPipe } from './pipes/luck.pipe';
 import { PoolSizesEffects } from './stores/pool-sizes/pool-sizes.effects';
 import { poolSizesReducer } from './stores/pool-sizes/pool-sizes.reducer';
 import { poolSizeStateKey } from './stores/pool-sizes/pool-sizes.selectors';
@@ -88,6 +89,7 @@ import { poolSizeStateKey } from './stores/pool-sizes/pool-sizes.selectors';
     // Pipes
     MinutesPipe,
     FarmerSearchComponent,
+    LuckPipe,
   ],
   imports: [
     BrowserModule,
